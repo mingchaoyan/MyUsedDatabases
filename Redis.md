@@ -3,7 +3,7 @@
 ## 历史
 * 发行 2009年4月10日
 * 作者 Salvatore_Sanfilippo
-* ![](https://github.com/mingchaoyan/MyUsedDatabases/blob/master/pic/Salvatore_Sanfilippo.jpg.jpg)
+* ![](https://github.com/mingchaoyan/MyUsedDatabases/blob/master/pic/Salvatore_Sanfilippo.jpg)
 
 ## 特性
 * key-value
