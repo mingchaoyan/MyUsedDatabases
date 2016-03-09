@@ -39,8 +39,6 @@ $ /usr/local/pgsql/bin/psql test
 =# ctrl+d or \q
 ```
 
-
-
 #### 数据库用户相关
 
 
