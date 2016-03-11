@@ -34,11 +34,16 @@ $/usr/local/pgsql/bin/createdb test
 ```shell
 $ /usr/local/pgsql/bin/psql test
 ```
+* 登录后连接 test 数据库
+```shell
+$ psql
+postgres=# \c test
+```
 * 退出客户端
 ```shell
 =# ctrl+d or \q
 ```
-
+* 
 #### 数据库用户相关
 
 
@@ -69,7 +74,14 @@ pg_dump dbname > outfile
 ```shell
 psql dbname < infile
 ```
-
+* 从csv导入数据
+```shell
+=# copy activities from '/Users/mingchaoyan/activities.csv' csv header;
+```
+* 导出数据到csv
+```shell
+copy activities to '/Users/mingchaoyan/activities.csv' csv header;
+```
 ## SQL
 
 ## 驱动(ORM)
