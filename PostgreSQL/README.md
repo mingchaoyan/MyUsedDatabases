@@ -74,7 +74,7 @@ pg_dump dbname > outfile
 ```shell
 psql dbname < infile
 ```
-* 从csv导入数据
+* 从csv导入数据(COPY is server based, \COPY is client based)
 ```shell
 =# copy activities from '/Users/mingchaoyan/activities.csv' csv header;
 ```
