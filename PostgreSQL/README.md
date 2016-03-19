@@ -43,7 +43,10 @@ postgres=# \c test
 ```shell
 =# ctrl+d or \q
 ```
-* 
+* 设置事务级别
+```
+=# BEGIN TRANSACTION ISOLATION LEVEL READ COMMITTED;
+```
 #### 数据库用户相关
 
 
