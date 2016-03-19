@@ -10,6 +10,8 @@
 
 ## 数据类型
 
+## 事务
+
 ## 数据库管理
 ```shell
 $ sqlite3 filename.sqlite3

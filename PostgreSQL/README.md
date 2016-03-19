@@ -6,6 +6,13 @@
 
 ## 特性
 
+## 数据类型
+
+## 事务
+```
+=# BEGIN TRANSACTION ISOLATION LEVEL READ COMMITTED; //transaction isolation level read committed;
+```
+
 ## 数据库管理
 
 ### 安装配置
@@ -42,10 +49,6 @@ postgres=# \c test
 * 退出客户端
 ```shell
 =# ctrl+d or \q
-```
-* 设置事务级别
-```
-=# BEGIN TRANSACTION ISOLATION LEVEL READ COMMITTED;
 ```
 #### 数据库用户相关
 
