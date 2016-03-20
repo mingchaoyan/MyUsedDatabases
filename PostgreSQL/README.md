@@ -9,6 +9,7 @@
 ## 数据类型
 
 ## 事务
+* 默认 read committed
 ```
 =# BEGIN TRANSACTION ISOLATION LEVEL READ COMMITTED; //transaction isolation level read committed;
 ```
