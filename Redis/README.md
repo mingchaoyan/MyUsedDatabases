@@ -26,3 +26,7 @@
 
 ## 驱动
 * [then-redis](https://github.com/mjackson/then-redis)
+
+## 客户端
+* [Redis Commander](http://joeferner.github.io/redis-commander/)
+* [medis](http://getmedis.com/)
