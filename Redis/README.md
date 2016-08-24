@@ -16,6 +16,36 @@
 4. sets
 5. sorted-sets
 
+## 常用命令
+1. KEYS
+2. SET bar 1
+3. EXISTS eky
+4. DEL key
+5. TYPE key
+6. LPUSH
+7. GET key
+8. INCR key
+9. DECR
+10. APPEND key value
+11. STRLEN key
+12. MGET
+13. MSET
+14. GETBIT
+15. SETBIT
+16. BITPOS
+17. HSET key field value
+18. HGET key field
+19. HMSET key field value [field value ...]
+20. HMGET key field [field ...]
+21. HEXISTS key field 
+22. HINCRBY key field increment
+23. HDEL key field
+24. HKEYS key
+25. HVALS key
+26. HLEN key
+27. LPUSH key value
+28. RPUSH key value
+
 ## 事务
 * multi, exec 命令
 * 原理 “将多个命令打包， 然后一次性、按顺序地执行”的机制，
