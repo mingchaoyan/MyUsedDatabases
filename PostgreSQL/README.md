@@ -18,10 +18,11 @@
 
 ### 安装配置
 * 配置远程访问
-```shell
-pg_hba.conf：配置对数据库的访问权限，
-postgresql.conf：配置PostgreSQL数据库服务器的相应的参数。
-```
+
+    ```shell
+    pg_hba.conf：配置对数据库的访问权限，
+    postgresql.conf：配置PostgreSQL数据库服务器的相应的参数。
+    ```
 
 ### 简单命令
 
