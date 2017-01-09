@@ -23,6 +23,8 @@
 * show measurements 显示所有表
 * insert disk_free,hostname=server01 value=442221834240i 1435362189575692182 新建表并插入
 * drop measurement disk_free 删除表
+* show tag keys from winLevel 查看tag 
+* show field keys from winLevel 查看field
 
 ## 4. 事务
 
@@ -32,9 +34,13 @@
 
     brew install influxdb
 
+    apt-get install influxdb
+
 ### 5.2 启动
 
     sudo brew services start influxdb
+
+    sudo service influxdb start
 
 ## 驱动
 
